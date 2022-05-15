@@ -17,8 +17,8 @@ public class alumnoController {
 	Alumno alumnito = new Alumno();
 		System.out.println("ingresando al metodo");
 	Alumno alumno1 = new Alumno("Lisandro", "Alejo", LocalDate.of(2003,6,18), 44812842, 38848769, "aaaaaa", 11111, alumnito.calcularEdad(LocalDate.of(2003,6,18)));
-	Alumno alumno2 = new Alumno("Lisandr", "Alej", LocalDate.of(2001,7,14), 44812843, 38848768, "aaaaab", 11112, alumnito.calcularEdad(LocalDate.now()));
-	Alumno alumno3 = new Alumno("Lisand", "Ale", LocalDate.parse("2003-06-20"), 44812844, 38848767, "aaaabb", 11113, alumnito.calcularEdad( LocalDate.parse("2003-06-20")));
+	Alumno alumno2 = new Alumno("Brisa", "Ontiveros", LocalDate.of(2001,7,14), 44812843, 38848768, "aaaaab", 11112, alumnito.calcularEdad(LocalDate.now()));
+	Alumno alumno3 = new Alumno("Leonardo", "Soto", LocalDate.parse("2003-06-20"), 44812844, 38848767, "aaaabb", 11113, alumnito.calcularEdad( LocalDate.parse("2003-06-20")));
 
 	ListadoAlumnos nombre = new ListadoAlumnos();
 	//ingreso datos correspondientes
